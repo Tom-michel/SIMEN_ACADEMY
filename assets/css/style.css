@@ -1,0 +1,17 @@
+
+
+@media screen and (max-width: 767px) {
+    #carouselFeedback {
+        padding: 0 20px;
+    }
+    #carouselFeedback .carou-control .carou-icon {
+        background-color: #0021479d;
+        border-radius: 50%;
+        padding: 5px !important;
+        display: flex;
+    }
+    #carouselFeedback .carou-control .carou-icon span{
+        width: 1.2rem !important;
+        height: 1.2rem !important;
+    }
+}
