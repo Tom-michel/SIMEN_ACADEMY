@@ -1,0 +1,10 @@
+
+
+:root {
+    --color-yelow: #FDC800;
+}
+.nav-link.active {
+    /* color: var(--color-primary) !important; */
+    color: var(--color-yelow) !important;
+    font-weight: 500;
+}
