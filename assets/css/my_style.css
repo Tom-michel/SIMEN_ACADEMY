@@ -2,9 +2,60 @@
 
 :root {
     --color-yelow: #FDC800;
+    --color-bleu: #002147;
 }
 .nav-link.active {
     /* color: var(--color-primary) !important; */
     color: var(--color-yelow) !important;
     font-weight: 500;
+}
+
+.navbar-brand {
+    position: relative;
+}
+.navbar-brand img {
+    position: absolute;
+    top: -35px;
+}
+
+.navbar-light .navbar-toggler {
+    color: #157BC0 !important;
+    position: relative;
+    border: none;
+    width: 35px;
+    height: 35px;
+}
+.navbar-toggler #menuO, .navbar-toggler #menuC {
+    position: absolute;
+    top: 10px !important;
+    right: 2px;
+}
+#menuC i, #menuO i {
+    font-size: 30px !important;
+}
+
+
+/* modal registration */
+
+.form-group {
+    position: relative;
+}
+.fom {
+    align-items: center !important;
+    display: flex;
+}
+.fom .uil-eye, .fom .uil-eye-slash {
+    position: absolute;
+    top: 2px;
+    right: 2%;
+    cursor: pointer;
+    color: var(--color-grays);
+    font-size: 25px;
+}
+
+.modal-body .nav-tabs .nav-link {
+    width: 50%; 
+}
+.modal-body .nav-tabs .nav-link.active {
+    background-color: var(--color-bleu);
 }
